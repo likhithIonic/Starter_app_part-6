@@ -1,11 +1,11 @@
 # Exploring Appflow Exercise 6
 
 This part -6 of the exploring Appflow exercise consists of the following topics
-
-1. Installing Appflow SDK
-2. Building for native with SDK
-3. Build a web deploy build
-4. Assigning it to a channel
+1. Live updates
+   1. Installing Appflow SDK
+   2. Building for native with SDK
+   3. Build a web deploy build
+   4. Assigning it to a channel
 
 
 In order to take advantage of some of the best Appflow features, like deploying live updates to your app and bypassing the app stores, you'll need to install the Appflow SDK (also known as the Ionic Deploy plugin). The Appflow SDK comes with Ionic Appflow's Deploy feature for detecting and syncing your app with updates that you've pushed to channels.
