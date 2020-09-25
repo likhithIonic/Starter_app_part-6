@@ -16,16 +16,16 @@ When a web build is deployed/assigned to a Channel as Destination, that update w
 
 To install the Appflow SDK plugin from the Dashboard, 
 
-1. Select destinations from the deployements in the side menu <br><br>
+1. Select destinations from the deployments in the side menu <br><br>
 ![Appflow](images/img6_1.png)<br><br>
-2. Follow the instructions provided by clicking "Install Instructions" for the production channel on the Destinations list in the Appflow Dashboard.<br><br>
+2. Follow the instructions provided by clicking `Install Instructions` for the production channel on the Destinations list in the Appflow Dashboard.<br><br>
 ![Appflow](images/img6_2.png)<br><br>
 
 The background method is selected by default. 
 
 ***To know more about the update methods that are available refer the [docs here](https://ionicframework.com/docs/appflow/deploy/api#update-method)***
 
-Or  You can also run `ionic deploy add` and the CLI will prompt you for the neccessary values.
+Or  You can also run `ionic deploy add` and the CLI will prompt you for the necessary values.
 
 Once you copy and paste the command in the root of your project the plugin is installed and you should see the following success message.
 
@@ -63,11 +63,11 @@ For example: open `src/app/home/home.page.html` in your editor
 
 Again, make sure you commit your changes to the git.
 
-Now you need to trigger a build that can be used as a live update. Triggering a web build for Live update is same as the one you triggering in part -1 of this exercise.
+Now you need to trigger a build that can be used as a live update. Triggering a web build for Live update is the same as the one you triggered in part -1 of this exercise.
 
 ## Assigning it to a channel
 
-Once, you have the web build from the new commit successfull. All you need to do is assign it to a channel in destinations that you chose earlier. (production)
+Once, you have the web build from the new commit successful. All you need to do is assign it to a channel in destinations that you chose earlier. (production)
 
 You can do that by selecting the deploy live updates option from the build log once it is successful.
 
@@ -81,11 +81,11 @@ You can also see a list of all the deployments done so far from the destinations
 
 ![Appflow](images/img6_5.png)<br><br>
 
-Now, in the device or simulator in which you installed the apk, if you can loose the focus or close and re -open the application you should be able to see the update in form of Live updates. 
+Now, in the device or simulator in which you installed the apk, if you can lose the focus or close and re -open the application you should be able to see the update in  form of Live updates. 
 
-**Note: It might take few seconds to fetch the live update.**
+**Note: It might take a few seconds to fetch the live update.**
 
-Voila! You have successfull deployed a Live update and you can start leveraging the potential of the powerful Ionic Appflow!
+Voila! You have successfully deployed a Live update and you can start leveraging the potential of the powerful Ionic Appflow!
 
 You can use this repository to compare your starter project and make changes if necessary.
 
