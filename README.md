@@ -43,9 +43,9 @@ Once, you installed the sdk make sure you commit your changes to the git.
 
 * The Live Update feature works by using the installed Appflow SDK in your native application to listen to a particular Deploy Channel Destination.
 
-* Therefore you need to build for native after you have installed the sdk. You can refer to our previous chapter on how to quickly build a android debug build.
+* Therefore you need to build for native after you have installed the sdk. You can refer to our previous chapter on how to quickly build an android debug build.
 
-* When, the build is succesful and you have the android debug apk, Install it onto a simulator or a device of your choice.
+* When, the build is successful and you have the android debug apk, Install it onto a simulator or a device of your choice.
 
  ## Build a web deploy build
 
